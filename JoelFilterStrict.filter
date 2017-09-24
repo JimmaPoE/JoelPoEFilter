@@ -249,7 +249,7 @@ Show #$crafting %TB-Top-Atlas-Bases
 	SetBackgroundColor 255 125 0 255     # BACKGROUND:	 Atlas bases
 	PlayAlertSound 6 300                 # DROPSOUND:	 T1 Drop
 
-Show #$crafting %TB-Atlas-Bases
+Hide #$crafting %TB-Atlas-Bases
 	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Crystal Belt"
 	Rarity <= Rare
 	ItemLevel >= 84
@@ -265,7 +265,7 @@ Show #$crafting %TB-Atlas-Bases
 	SetTextColor 255 190 0               # TEXTCOLOR:	 Rares - Level - 75+
 	SetBorderColor 255 125 0 255         # BORDERCOLOR:	 Atlas bases
 
-Show #$crafting %TB-Atlas-Bases %D4
+Hide #$crafting %TB-Atlas-Bases %D4
 	BaseType "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Crystal Belt"
 	Rarity <= Rare
 	SetFontSize 42
@@ -317,7 +317,7 @@ Show # %TB-Talisman %D5
 #	SetBorderColor 0 210 0 210
 #	PlayAlertSound 7 300
 
-Show #$chancing (no sound) %TB-T2-Chancing %D3
+Hide #$chancing (no sound) %TB-T2-Chancing %D3
 	BaseType "Leather Belt"
 	Rarity Normal
 	SetTextColor 255 255 255 255         # TEXTCOLOR:	 Normal Items: Strong Highlight
