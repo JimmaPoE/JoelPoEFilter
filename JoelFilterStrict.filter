@@ -1833,7 +1833,7 @@ Show
 # FilterBlade: Conditional Entry
 Show
 Class Maps
-BaseType "Shaped Racecourse Map" "Shaped Spider Forest Map"
+BaseType "Shaped Racecourse Map" "Shaped Spider Forest Map" "Vault Map" "Shaped Shore Map"
 SetFontSize 44
 SetBackgroundColor 180 70 50 220
 PlayAlertSound 8 300
@@ -1906,7 +1906,6 @@ Show # Maps:T10
 	Class Maps
 	SetFontSize 45
 	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 T6-10 maps, currency, talismans
-	PlayAlertSound 4 300                 # DROPSOUND:	 Low tier map drop
 
 #------------------------------------
 #  T9 - Maps
@@ -1918,7 +1917,6 @@ Show # Maps:T9 - OnLevel
 	ItemLevel < 83
 	SetFontSize 40
 	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 T6-10 maps, currency, talismans
-	PlayAlertSound 4 300                 # DROPSOUND:	 Low tier map drop
 
 Show # Maps:T9
 	DropLevel >= 76
@@ -1926,7 +1924,6 @@ Show # Maps:T9
 	BaseType "Shaped"
 	SetFontSize 42
 	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 T6-10 maps, currency, talismans
-	PlayAlertSound 4 300                 # DROPSOUND:	 Low tier map drop
 
 Show # Maps:T9 %H4
 	DropLevel >= 76
@@ -1946,7 +1943,6 @@ Show # Maps:T8 - OnLevel %D5
 	ItemLevel < 82
 	SetFontSize 40
 	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 T6-10 maps, currency, talismans
-	PlayAlertSound 4 300                 # DROPSOUND:	 Low tier map drop
 
 Show # Maps:T8
 	DropLevel >= 75
@@ -1954,7 +1950,6 @@ Show # Maps:T8
 	BaseType "Shaped"
 	SetFontSize 42
 	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 T6-10 maps, currency, talismans
-	PlayAlertSound 4 300                 # DROPSOUND:	 Low tier map drop
 
 Show # Maps:T8 %H4
 	DropLevel >= 75
@@ -1974,7 +1969,6 @@ Show # Maps:T7 - OnLevel %D5
 	ItemLevel < 81
 	SetFontSize 40
 	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 T6-10 maps, currency, talismans
-	PlayAlertSound 4 300                 # DROPSOUND:	 Low tier map drop
 
 Show # Maps:T7
 	DropLevel >= 74
@@ -1982,7 +1976,6 @@ Show # Maps:T7
 	BaseType "Shaped"
 	SetFontSize 42
 	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 T6-10 maps, currency, talismans
-	PlayAlertSound 4 300                 # DROPSOUND:	 Low tier map drop
 
 Show # Maps:T7 %H4
 	DropLevel >= 74
@@ -2002,7 +1995,6 @@ Show # Maps:T6 - OnLevel %D5
 	ItemLevel < 80
 	SetFontSize 40
 	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 T6-10 maps, currency, talismans
-	PlayAlertSound 4 300                 # DROPSOUND:	 Low tier map drop
 
 Show # Maps:T6
 	DropLevel >= 73
@@ -2010,7 +2002,6 @@ Show # Maps:T6
 	BaseType "Shaped"
 	SetFontSize 42
 	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 T6-10 maps, currency, talismans
-	PlayAlertSound 4 300                 # DROPSOUND:	 Low tier map drop
 
 Show # Maps:T6 %H4
 	DropLevel >= 73
@@ -2030,7 +2021,6 @@ Show # Maps:T5 - OnLevel %D5
 	ItemLevel < 79
 	SetFontSize 38
 	SetBackgroundColor 0 0 0 226         # BACKGROUND:	 Highlight - low maps, low priority items
-	PlayAlertSound 4 300                 # DROPSOUND:	 Low tier map drop
 
 Show # Maps:T5 %H3
 	DropLevel >= 72
@@ -2050,7 +2040,6 @@ Show # Maps:T4 - OnLevel %H5
 	ItemLevel < 78
 	SetFontSize 38
 	SetBackgroundColor 0 0 0 226         # BACKGROUND:	 Highlight - low maps, low priority items
-	PlayAlertSound 4 150                 # DROPSOUND:	 Low tier map drop
 
 Show # Maps:T4 %H3
 	DropLevel >= 71
@@ -2070,7 +2059,6 @@ Show # Maps:T3 - OnLevel %H5
 	ItemLevel < 77
 	SetFontSize 38
 	SetBackgroundColor 0 0 0 226         # BACKGROUND:	 Highlight - low maps, low priority items
-	PlayAlertSound 4 150                 # DROPSOUND:	 Low tier map drop
 
 Show # Maps:T3 %H3
 	DropLevel >= 70
@@ -2090,7 +2078,6 @@ Show # Maps:T2 - OnLevel %H5
 	ItemLevel < 76
 	SetFontSize 38
 	SetBackgroundColor 0 0 0 226         # BACKGROUND:	 Highlight - low maps, low priority items
-	PlayAlertSound 4 150                 # DROPSOUND:	 Low tier map drop
 
 Show # Maps:T2 %H3
 	DropLevel = 69
@@ -2110,7 +2097,6 @@ Show # Maps:T1 - OnLevel %H5
 	ItemLevel < 75
 	SetFontSize 38
 	SetBackgroundColor 0 0 0 226         # BACKGROUND:	 Highlight - low maps, low priority items
-	PlayAlertSound 4 150                 # DROPSOUND:	 Low tier map drop
 
 Show # Maps:T1 %H3
 	DropLevel < 69
