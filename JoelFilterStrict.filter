@@ -755,20 +755,11 @@ Hide # Minimize junk instead of hiding (if "Show") %TC-Junkable
 
 Show # %H5 %TB-Currency-T4
 Class Currency
-BaseType "Orb of Chance" "Chromatic Orb" "Jeweller's Orb" "Glassblower's Bauble" "Orb of Transmutation"
+BaseType "Jeweller's Orb" "Orb of Alteration" "Orb of Alchemy" "Silver Coin"
 SetFontSize 42
-SetTextColor 210 178 135 255          # TEXTCOLOR:	 Low currency T1
-SetBorderColor 213 159 100 200        # BORDERCOLOR:	 T1 LOW currency
+SetTextColor 0 102 102 255          # TEXTCOLOR:	 Low currency T1
+SetBorderColor 0 102 102 200        # BORDERCOLOR:	 T1 LOW currency
 SetBackgroundColor 0 0 0 255          # BACKGROUND:	 T6-10 maps, currency, talismans
-
-Show # %H4 %TB-Currency-T5
-Class Currency
-BaseType "Silver Coin"
-SetFontSize 32
-SetBorderColor 190 178 135 110        # BORDERCOLOR:   T2 LOW currency
-SetBackgroundColor 177 11 161 255     # BACKGROUND:  T6-10 maps, currency, talismans
-SetTextColor 255 255 255
-
 
 Show # %H4 %TB-Currency-T5
 Class Currency
@@ -780,7 +771,7 @@ SetTextColor 177 11 161 255
 
 Hide # %H2 %TB-Currency-T6
 Class Currency
-BaseType "Armourer's Scrap" "Orb of Augmentation" "Blacksmith's Whetstone" "Transmutation Shard" "Alchemy Shard" "Alteration Shard"
+BaseType "Armourer's Scrap" "Orb of Augmentation" "Blacksmith's Whetstone" "Transmutation Shard" "Alchemy Shard" "Alteration Shard" "Glassblower's Bauble" "Orb of Transmutation" "Orb of Chance" "Chromatic Orb"
 SetFontSize 40
 SetTextColor 170 158 130 220          # TEXTCOLOR:	 Low currency T3
 SetBorderColor 60 50 30 255           # BORDERCOLOR:	 T3 LOW currency
@@ -2455,6 +2446,18 @@ Show # %TB-Divination-T3
 	SetBorderColor 0 0 255 255           # BORDERCOLOR:	 Cosmetic: T1 and T2 Divination
 	SetBackgroundColor 50 220 240 235    # BACKGROUND:	 T3 Divination
 	PlayAlertSound 2 300                 # DROPSOUND:	 Value Drop: Currency, fragments
+
+#------------------------------------
+#   [1405] T5 - Format trash tier cards... before
+#------------------------------------
+
+Show # %H3 %TB-Divination-T5
+Class "Divination"
+BaseType "Her Mask" "The Gambler" "The Encroaching Darkness"
+SetFontSize 32
+SetTextColor 0 0 0 255                # TEXTCOLOR:   Cosmetic: Black Text
+SetBorderColor 0 0 0                  # BORDERCOLOR:   Cosmetic: Neutral Highlight
+SetBackgroundColor 175 215 230 180    # BACKGROUND:  T5 Divination
 
 #------------------------------------
 #   [1405] T5 - Format trash tier cards... before
